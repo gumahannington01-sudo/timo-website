@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Timo - Interior Design</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <h2 class="logo">Timo.</h2>
+  <nav>
+    <a href="Home.html">Home</a>
+    <a href="about.html">About us</a>
+    <a href="service.html">Services</a>
+    <a href="Blog.html">Blog</a>
+    <a href="contact us.html">Contact us</a>
+    <button onclick="addTocart()" class="cart-button">Add to Cart</button>
+  </nav>
+</header>
+
+<!-- HERO with 3D Sofa -->
+<section class="hero">
+  <div class="hero-text">
+    <h1>Modern Interior <p>Design Studio</p></h1>
+    <p>We have the best interior furniture in the world,</p> <p>at affordable prices which are negotiable to</p> <p>the lowest prices, come to our shop!</p>
+    <button onclick="location.href='shop.html'" class="btn primary">Shop Now</button>
+    <button  class="btn secondary" onclick="location.href='explore.html'">Explore</button>
+  </div>
+  <div id="hero-3d-container" class="hero-3d-container">
+    <img src="green sofa.jpg" alt="Green Sofa" class="hero-fallback-image">
+  </div>
+</section>
+<!-- PRODUCTS with Interactive 3D Models -->
+<section class="products">
+
+  <div class="products-text">
+  <h2>Crafted with
+     <p>excellent</p>
+      <p>material</p></h2>
+      <br>
+  <p>We craft furniture with the best material</p>
+  <p>we are avialable to offer home services </p> 
+  <p>craft all your ideas at your door step</p>
+  <button class="explore-button" onclick="location.href='explore2.html'">Explore</button>
+  </div>
+
+  <div class="product-grid">
+    <div class="card">
+      <img src="brown chair.jpg" alt="Small Chair">
+      <h3>Small Chair</h3>
+      <p>$50.00</p>
+        <button onclick="add()" class="add-button">+</button>
+    </div>
+
+    <div class="card">
+      <img src="Dining Chair.jpg" alt="Dining Chair">
+      <h3>Dining Chair</h3>
+      <p>$78.00</p>
+       <button onclick="add()" class="add-button">+</button>
+    </div>
+
+    <div class="card">
+      <img src="cream chair.jpg" alt="Cream Chair">
+      <h3>Cream Chair</h3>
+      <p>$43.00</p>
+       <button onclick="add()" class="add-button">+</button>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="why">
+  <div class="why-text">
+    <h2>Why Choose Us</h2>
+    <br>
+    <p class="subtitle">These are all the reason that should make you choose us </p> 
+    <p>over all the furniture houses in the world </p>
+    <br>
+
+    <div class="features">
+      <div class="feature">
+      
+      <div class="feature">
+        <div class="icon">🚚</div>
+        <h3>Fast & Free Shipping</h3>
+        <p>Donec vitae odio quis <br> nisl dapibus malesuada</p>
+      </div>
+
+      <div class="feature">
+        <div class="icon">🛍️</div>
+        <h3>Easy to Shop</h3>
+        <p>Donec vitae odio quis <br> nisl dapibus malesuada.</p>
+      </div>
+      </div>
+
+<div class="feature">
+      <div class="feature">
+        <div class="icon">🎧</div>
+        <h3>24/7 Support</h3>
+        <p>Donec vitae odio quis <br> nisl dapibus malesuada.</p>
+      </div>
+
+      <div class="feature">
+        <div class="icon">🔄</div>
+        <h3>Hassle Free Returns</h3>
+        <p>Donec vitae odio quis <br> nisl dapibus malesuada.</p>
+      </div>
+</div>
+    </div>
+  </div>
+  <img src="PERAMETRIC FURNITURE DESIGN.jpg">
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <div>
+    <h2>We Help You Make
+       <P>Modern Interior Design</P></h2>
+    <br>
+    <p>We have highly experienced people to help you</p> 
+    <p> these designs so please trust us with your houses </p> <P>to give you a comfortable stay at home.</p>
+      <br>
+      <div class="materials">
+      <ul>
+        <div class="material">
+        <li>Materials for chairs are <p>avialable at our</p> <p>store and online</p></li>
+        <li>Materials for tables are <p>avialable at our</p> <p>store and online</p></li>
+</div>
+        <div class="material">
+        <li>Materials for cupborads <p>are avialable at our</p> <p>store and online</p></li>
+        <li>Materials for wardropes <p>are avialable at our</p> <p>store and online</p></li>
+        </div>
+      </ul>
+      </div>
+    <button class="explore-button" onclick="location.href='explore3.html'">Explore</button>
+  </div>
+  <img src="Nature & Masters Bedroom interiors.jpg">
+</section>
+
+<section>
+<div class="card2-container">
+
+    <div class="card2">
+        <img src="brown chair.jpg" alt="">
+           <div class="card-text">
+       <h4>Small Chair</h4> 
+       <p>This is a very nice small chair for kids and adults</p> 
+       <a href="#">Read more</a>
+</div>
+</div>
+
+<div class="card2">
+      <img src="Dining Chair.jpg" alt="">
+      <div class="card-text">
+      <h4>Dining Chair</h4>
+      <p>This is a very nice dining chair for kids and adults</p>
+        <a href="#">Read more</a>
+      </div>
+</div> 
+
+ <div class="card2">
+      <img src="cream chair.jpg" alt="">
+       <div class="card-text">
+      <h4>Cream Chair</h4>
+      <p>This is a very nice dining chair for kids and adults</p>
+        <a href="#">Read more</a>
+      </div>
+    </div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Timo. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
